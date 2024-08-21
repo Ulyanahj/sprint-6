@@ -34,7 +34,7 @@ public class TestLion {
     @Test
     public void testSexException() {
         try {
-            new Lion("Сваолал", new Feline());
+            new Lion("тест", new Feline());
         } catch (Exception exception) {
             Assert.assertEquals("Используйте допустимые значения пола животного - самей или самка" ,exception.getMessage());
             return;
